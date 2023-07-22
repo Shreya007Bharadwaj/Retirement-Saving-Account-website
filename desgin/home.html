@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+ 
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Retirement Saving Account</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Mike</h3>
+         <p class="role">Welcome Back</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Mike</h3>
+      <p class="role">Welcome Back</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="analysis.html"><i class="fas fa-chart-line"></i><span>analysis</span></a>
+      
+      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+   </nav>
+
+</div>
+
+<section class="home-grid">
+
+   <h1 class="heading">quick options</h1>
+
+
+      
+
+
+<div class="box-container">
+
+   <div class="box">
+      <h3 class="title">Today</h3>
+          <div class="flex">
+            <a href="Transaction.html" class="option-btn">Account Balance</a>
+            <a href="Transaction.html" class="option-btn">Year-to-date Contribution: </a>
+            <a href="Transaction.html" class="option-btn">Total Intrest </a>            
+          </div>
+            <a href="#" class="inline-btn">I want to</a>
+
+            <div class="flex">
+               <a href="Transaction.html" class="option-btn">Recent Transaction</a>
+              
+            </div>
+   </div>
+
+   <div class="box">
+      
+      <p class="likes">Retirement Income</p>
+      <div class="flex">
+         <h3 class="title">Stating Year 2056</h3>
+         
+         <button class="btn">
+            <i class='bx bx-send'></i>
+            <span class="text">
+             My Goal
+            </span>
+            <span class="loading-animate"></span>
+          </button>
+          <button class="btn">
+            <i class='bx bx-send'></i>
+            <span class="text">
+             Goal Acheived
+            </span>
+            <span class="loading-animate"></span>
+          </button>
+          <button class="btn">
+            <i class='bx bx-send'></i>
+            <span class="text">
+             Est. Monthly Income
+            </span>
+            <span class="loading-animate"></span>
+          </button>
+        
+        
+        
+         <img src="img.jpeg" class="image" alt="">
+         <h3 class="title">How do I compare to my peers?</h3>
+      <p class="likes">These number represent current goal acheivement</p>
+     </div>
+      <div class="flex">
+
+         <a href="#"><span>Age:</span></a>
+         <select name="under 30" id="under 30">
+         <option value="javascript">under 30</option>
+         <option value="python">above 30</option>
+  
+         </select>
+ 
+            <a href="#"><span>Salary:</span></a>
+            
+            <select name="under 30k" id="under 30k">
+              <option value="javascript">under 30k</option>
+              <option value="python">above 30k</option>
+              
+            </select>
+            
+            <a href="#"><span>Gender:</span></a>
+            <select name="Gender" id="Gender">
+               <option value="javascript">Male</option>
+               <option value="python">Female</option>
+               
+             </select>
+
+      </div>
+
+
+
+   </div>
+
+   <div class="box">
+      
+      <div class="flex">
+         <p class="likes">Retirement Income</p>
+      </div>
+
+      <p class="likes">Employee Contribution</p>
+
+         <div class="range-slider">
+            <input class="range-slider__range" type="range" value="100" min="0" max="500">
+            <span class="range-slider__value"></span>
+          </div>
+             
+      <p class="likes">Retirement Age</p>
+
+      <div class="range-slider">
+         <input class="range-slider__range" type="range" value="100" min="0" max="500">
+         <span class="range-slider__value"></span>
+      </div>
+       
+
+      <p class="likes">Employer Contribution</p>
+      <a href="update.html" class="inline-btn">update profile</a>
+
+
+   </div>
+
+   
+
+</div>
+
+</section>
+
+
+
+
+ 
+  
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+<div id="chart_div" class="chart"></div>
+</html>
